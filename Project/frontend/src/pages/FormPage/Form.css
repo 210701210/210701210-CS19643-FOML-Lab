@@ -1,0 +1,44 @@
+.form-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans';
+  text-align: center;
+}
+.form-container h1,.form-container p {
+  color: var(--a);
+  margin-top: 20px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 50%;
+  background-color: var(--a);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  margin-top: 30px;
+}
+.form input, .form textarea {
+  width: 100%;
+  padding: 7px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: var(--b);
+}
+
+input[type="submit"] {
+  background: linear-gradient(to right,var(--c),var(--d));
+  border: none;
+  font-size: 1rem;
+  color: var(--a);
+  font-weight: bolder;
+}

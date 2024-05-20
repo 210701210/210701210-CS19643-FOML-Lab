@@ -1,0 +1,11 @@
+Flask
+Gunicorn
+openai
+langchain
+faiss-cpu
+langchain_google_genai 
+chromadb
+google-generativeai 
+langchain_community
+python-dotenv
+

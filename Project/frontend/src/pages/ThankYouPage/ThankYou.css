@@ -1,0 +1,8 @@
+.thankyou {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../assets/ttq.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
